@@ -1,0 +1,3 @@
+# Module recordbase
+# RPC service class, partial path of RPC policy file
+com.google.gwt.recordbase.client.GreetingService, B6B00D3543FF9FC43782E417767BCFB5.gwt.rpc

@@ -10,25 +10,50 @@ h1 {
   text-align: center;
 }
 
-.sendButton {
-  display: block;
-  font-size: 16pt;
+/* stock list header row */
+.watchListHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+  text-align: center;
 }
 
-/** Most GWT widgets already have a style name defined */
-.gwt-DialogBox {
-  width: 400px;
+/* stock list flex table */
+.watchList {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
 }
 
-.dialogVPanel {
-  margin: 5px;
+/* Size of the name fields */
+.watchListNumericColumn {
+  width:8em;
+  text-align: center;
 }
 
-.serverResponseLabelError {
-  color: red;
+.watchListRemoveColumn {
+	text-align: center;
 }
 
-/** Set ids using widget.getElement().setId("idOfElement") */
-#closeButton {
-  margin: 15px 6px 6px;
+/* Add Stock panel */
+.addPanel {
+  margin: 10px 0px 15px 0px;
 }
+
+/* stock list, the Remove button */
+.gwt-Button-remove {
+  width: 50px;
+}
+
+/* Dynamic color changes for the Change field */
+    .noChange {
+      color: black;
+    }
+
+    .positiveChange {
+      color: green;
+    }
+
+    .negativeChange {
+      color: red;
+    }

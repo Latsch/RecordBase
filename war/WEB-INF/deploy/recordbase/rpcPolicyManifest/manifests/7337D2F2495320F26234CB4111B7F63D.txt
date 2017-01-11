@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.recordbase.client.GreetingService
+path: B6B00D3543FF9FC43782E417767BCFB5.gwt.rpc
